@@ -1,13 +1,18 @@
+:root {
+  --ion-btn: #000;
+}
+
 /** HEADER **/
 
-#header{
+#header {
   height: 95px;
 }
-.toolbar-container{
+
+.toolbar-container {
   height: 100px;
 }
 
-ion-title{
+ion-title {
   font-size: 25px;
   position: absolute;
   top: 50px;
@@ -15,19 +20,19 @@ ion-title{
   font-weight: normal;
 }
 
-ion-icon{
+ion-icon {
   color: #ffffff;
   font-size: 30px;
 }
 
-.burger{
+.burger {
   font-size: 40px;
   position: absolute;
   left: 20px;
   top: 10px;
 }
 
-.loupe{
+.loupe {
   font-size: 25px;
   position: absolute;
   right: 20px;
@@ -35,3 +40,127 @@ ion-icon{
 }
 
 /** BODY **/
+
+.btn-sousmenu {
+  color: #40743C;
+  background-color: #ffffff;
+  height: 70px;
+  width: 50%;
+  padding-top: 10px;
+  font-size: 22px;
+
+}
+
+.btn--wrapper {
+  box-shadow: 0 0 8px 0 grey;
+}
+
+h2 {
+  color: #CCBF7E;
+  margin: 20px 30px 12px 30px;
+  padding-top: 30px;
+}
+
+hr {
+  height: 2px;
+  color: #CCBF7E;
+  background-color: #CCBF7E;
+  width: 200px;
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.top p {
+  color: #40743C;
+  font-size: 25px;
+  width: 150px;
+  font-weight: lighter;
+  padding: 30px 0 0 40px;
+}
+
+.cta {
+  color: #fff;
+  background-color: #40743C;
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.toProduct {
+  background-color: #CCBF7E;
+  color: #000;
+  display: flex;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.toProduct--wrapper {
+  display: block;
+  padding: 20px 0 0 50px;
+}
+
+.toProduct--wrapper h3 {
+  font-size: 20px;
+  width: 150px;
+}
+
+.toProduct--wrapper p {
+  font-size: 18px;
+  font-weight: lighter;
+  width: 160px;
+  padding: 20px 0 ;
+}
+
+.toProduct--wrapper .cta {
+  width: 170px;
+}
+
+.toTips{
+  color: #000;
+  padding-top: 50px;
+}
+
+.toTips h3{
+  font-size: 20px;
+  width: 250px;
+  padding: 0 0 20px 50px;
+}
+
+.toTips p{
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 0 0 20px 140px;
+}
+
+.toTips button{
+    position: absolute;
+    left: 25%;
+}
+
+.separator{
+  padding-top: 100px;
+}
+
+.livraison{
+  color: #000000;
+  display: flex;
+  height: 180px;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.livraison img{
+  height: 70px;
+}
+.livraison p{
+  font-size: 18px;
+  font-weight: lighter;
+  width: 150px;
+  padding-top: 10px;
+}
