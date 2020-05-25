@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "potager-b7ed4": {
+      "hosting": {
+        "app": [
+          "potager-b7ed4"
+        ]
+      }
+    }
+  }
+}
