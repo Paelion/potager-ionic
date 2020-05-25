@@ -26,4 +26,12 @@ export class HomePageComponent implements OnInit {
         });
     }
 
+    register(){
+
+    }
+
+    back(){
+        this.router.navigateByUrl('login');
+    }
+
 }
