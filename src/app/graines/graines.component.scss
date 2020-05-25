@@ -1,0 +1,52 @@
+/** HEADER **/
+
+#header {
+  height: 164px;
+  box-shadow: 0 0 8px 0 grey;
+}
+
+.toolbar-container {
+  height: 164px;
+}
+
+ion-title {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-weight: normal;
+}
+
+ion-icon {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.burger {
+  font-size: 40px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.loupe {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.btn-sousmenu {
+  color: #40743C;
+  background-color: #ffffff;
+  height: 70px;
+  width: 50%;
+  padding-top: 10px;
+  font-size: 22px;
+
+
+}
+
+.btn--wrapper {
+  padding-top: 95px;
+}
