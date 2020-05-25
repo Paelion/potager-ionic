@@ -1,3 +1,19 @@
-<p>
-  contact works!
-</p>
+<ion-toolbar id="header">
+  <div class="toolbar-container">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+    <ion-title>SEED</ion-title>
+    <div class="btn--wrapper">
+      <button class="btn-sousmenu">Graines</button>
+      <button class="btn-sousmenu">Matériel</button>
+    </div>
+  </div>
+</ion-toolbar>
+
+<ion-content>
+  <h2>CONTACTEZ NOUS</h2>
+  <ion-item>
+    <ion-label position="floating">ADRESSE E-MAIL</ion-label>
+    <ion-input [(ngModel)]="test"></ion-input>
+    <hr>
+  </ion-item>
+</ion-content>
