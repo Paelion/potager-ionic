@@ -1,7 +1,34 @@
+#header{
+  height: 95px;
+
+}
+.toolbar-container{
+  height: 100px;
+}
+
 ion-title{
   font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-weight: normal;
 }
 
 ion-icon{
   color: #ffffff;
+  font-size: 30px;
+}
+
+.burger{
+  font-size: 40px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.loupe{
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
