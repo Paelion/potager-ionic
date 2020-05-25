@@ -5,11 +5,12 @@
 /** HEADER **/
 
 #header {
-  height: 95px;
+  height: 164px;
+  box-shadow: 0 0 8px 0 grey;
 }
 
 .toolbar-container {
-  height: 100px;
+  height: 164px;
 }
 
 ion-title {
@@ -49,10 +50,11 @@ ion-icon {
   padding-top: 10px;
   font-size: 22px;
 
+
 }
 
 .btn--wrapper {
-  box-shadow: 0 0 8px 0 grey;
+  padding-top: 95px;
 }
 
 h2 {
