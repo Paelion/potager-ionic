@@ -11,6 +11,9 @@ import {GraineSingleComponent} from './graine-single/graine-single.component';
 import {CompteConnexionComponent} from './compte-connexion/compte-connexion.component';
 import {CompteCreationComponent} from './compte-creation/compte-creation.component';
 import {CompteInformationsComponent} from './compte-informations/compte-informations.component';
+import {MotDePasseComponent} from './mot-de-passe/mot-de-passe.component';
+import {MotDePasseOublieComponent} from './mot-de-passe-oublie/mot-de-passe-oublie.component';
+import {InformationsClientComponent} from './informations-client/informations-client.component';
 
 
 const routes: Routes = [
@@ -24,7 +27,10 @@ const routes: Routes = [
   {path: 'graineSingle', component: GraineSingleComponent},
   {path: 'compteConnexion', component: CompteConnexionComponent},
   {path: 'compteCreation', component: CompteCreationComponent},
-  {path: 'compteInformations', component: CompteInformationsComponent}
+  {path: 'compteInformations', component: CompteInformationsComponent},
+  {path: 'motDePasse', component: MotDePasseComponent},
+  {path: 'motDePasseOublie', component: MotDePasseOublieComponent},
+  {path: 'informations', component: InformationsClientComponent}
 ];
 
 @NgModule({

@@ -27,10 +27,6 @@ ion-icon {
   top: 10px;
   color: #ffffff;
 }
-.arrow{
-  color: #ffffff;
-  margin-left: 0;
-}
 
 .btn-sousmenu {
   color: #40743C;
@@ -45,17 +41,8 @@ ion-icon {
   padding-top: 95px;
 }
 
-
-
 /** BODY **/
-h2{
-  display: flex;
-  justify-content: center;
-  font-size: 18px ;
-  color: #40743C;
-  padding: 50px 0 40px 0;
-  text-align: center;
-}
+
 ion-item{
   padding: 0 50px;
   color: #CCBF7E;
@@ -73,9 +60,9 @@ ion-label:active{
 
 p{
   color: #40743C;
-  font-size: 18px;
-  margin-bottom: 60px;
-  margin-left: 130px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .cta {
@@ -86,48 +73,9 @@ p{
   font-size: 18px;
   font-weight: bold;
   margin-left: 50px;
-  margin-top: 0;
-}
-
-ion-icon{
-  color: #40743C;
-  margin-left: 40px;
-}
-.commande{
-  margin-top: 55px;
-}
-.info{
-  margin-top: 145px;
-}
-
-.paiement{
-  margin-top: 230px;
-}
-
-.motdepasse{
-  margin-top: 315px;
-}
-
-.aide{
-  margin-top: 450px;
-  margin-left: 95px;
-  font-size: 20px;
-}
-
-.aide-txt{
   margin-top: 40px;
-  margin-left: 150px;
 }
 
-.wrapper{
-  padding-top: 70px;
-}
-
-
-hr {
-  height: 1px;
-  color: #40743C;
-  background-color: #40743C;
-  width: 330px;
-  padding: 0;
+.mdp{
+  margin-top: 80px;
 }

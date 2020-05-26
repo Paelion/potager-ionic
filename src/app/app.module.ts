@@ -19,11 +19,14 @@ import {GraineSingleComponent} from './graine-single/graine-single.component';
 import {CompteConnexionComponent} from './compte-connexion/compte-connexion.component';
 import {CompteCreationComponent} from './compte-creation/compte-creation.component';
 import {CompteInformationsComponent} from './compte-informations/compte-informations.component';
+import {MotDePasseComponent} from './mot-de-passe/mot-de-passe.component';
+import {MotDePasseOublieComponent} from './mot-de-passe-oublie/mot-de-passe-oublie.component';
+import {InformationsClientComponent} from './informations-client/informations-client.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule],
     providers: [
