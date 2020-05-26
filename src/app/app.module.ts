@@ -15,12 +15,15 @@ import {MaterielComponent} from './materiel/materiel.component';
 import {PanierComponent} from './panier/panier.component';
 import {ProduitSingleComponent} from './produit-single/produit-single.component';
 import {TipsMainVerteComponent} from './tips-main-verte/tips-main-verte.component';
-import {GraineSingleComponent} from "./graine-single/graine-single.component";
+import {GraineSingleComponent} from './graine-single/graine-single.component';
+import {CompteConnexionComponent} from './compte-connexion/compte-connexion.component';
+import {CompteCreationComponent} from './compte-creation/compte-creation.component';
+import {CompteInformationsComponent} from './compte-informations/compte-informations.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule],
     providers: [

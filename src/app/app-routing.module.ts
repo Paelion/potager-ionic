@@ -7,7 +7,10 @@ import {MaterielComponent} from './materiel/materiel.component';
 import {PanierComponent} from './panier/panier.component';
 import {ProduitSingleComponent} from './produit-single/produit-single.component';
 import {TipsMainVerteComponent} from './tips-main-verte/tips-main-verte.component';
-import {GraineSingleComponent} from "./graine-single/graine-single.component";
+import {GraineSingleComponent} from './graine-single/graine-single.component';
+import {CompteConnexionComponent} from './compte-connexion/compte-connexion.component';
+import {CompteCreationComponent} from './compte-creation/compte-creation.component';
+import {CompteInformationsComponent} from './compte-informations/compte-informations.component';
 
 
 const routes: Routes = [
@@ -18,7 +21,10 @@ const routes: Routes = [
   {path: 'panier', component: PanierComponent},
   {path: 'produitSingle', component: ProduitSingleComponent},
   {path: 'tipsMainVerte', component: TipsMainVerteComponent},
-  {path: 'graineSingle', component: GraineSingleComponent}
+  {path: 'graineSingle', component: GraineSingleComponent},
+  {path: 'compteConnexion', component: CompteConnexionComponent},
+  {path: 'compteCreation', component: CompteCreationComponent},
+  {path: 'compteInformations', component: CompteInformationsComponent}
 ];
 
 @NgModule({

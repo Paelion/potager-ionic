@@ -1,12 +1,12 @@
 <ion-toolbar id="header">
   <div class="toolbar-container">
     <ion-icon name="arrow-back-outline"></ion-icon>
-    <ion-title>CONTACT</ion-title>
+    <ion-title>MON COMPTE</ion-title>
   </div>
 </ion-toolbar>
 
 <ion-content>
-  <h2>CONTACTEZ NOUS</h2>
+  <h2>INSCRIVEZ_VOUS A L'AIDE DE VOTRE ADRESSE E-MAIL</h2>
   <ion-item>
     <ion-label position="floating">ADRESSE E-MAIL</ion-label>
     <ion-input [(ngModel)]="test"></ion-input>
@@ -22,13 +22,14 @@
     <ion-input [(ngModel)]="test"></ion-input>
   </ion-item>
   <br>
-  <br>
-  <ion-label position="floating" class="label--message">Message</ion-label>
-  <ion-item class="message">
-    <ion-textarea [(ngModel)]="test"></ion-textarea>
+  <ion-item>
+    <ion-label position="floating">MOT DE PASSE</ion-label>
+    <ion-input [(ngModel)]="test"></ion-input>
   </ion-item>
   <br>
+  <ion-checkbox></ion-checkbox>
+  <ion-label class="check">Accepter nos conditions et politique de confidentialité</ion-label>
   <br>
-  <button class="cta">ENVOYER</button>
+  <br>
+  <button class="cta">CREER MON COMPTE</button>
 </ion-content>
-
