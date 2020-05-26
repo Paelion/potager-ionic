@@ -39,29 +39,26 @@ h4, h5, p {
 }
 
 .selecteur2 {
+
   position: absolute;
   top: 480px;
   left: 274px;
   text-align: center;
+
+  display: block;
+
 }
 
-hr {
+ion-item{
+  width: 32%;
+  margin-left: 140px;
+  margin-top: 15px;
+}
+
+ion-select{
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
-  height: 0;
-  border: 1px solid #40743C;
-  color: #0d0d0d;
-  opacity: 1;
+  right: 40px;
 }
-
-ion-icon{
-  font-size: 20px;
-  padding-top: 8px;
-}
-
-.selecteur p{
-  padding: 5px 0 0 6px;
-  margin-right: 10px;
+.item-inner{
+  padding-inline-end: 0;
 }
