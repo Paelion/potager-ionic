@@ -23,11 +23,12 @@ import {MotDePasseComponent} from './mot-de-passe/mot-de-passe.component';
 import {MotDePasseOublieComponent} from './mot-de-passe-oublie/mot-de-passe-oublie.component';
 import {InformationsClientComponent} from './informations-client/informations-client.component';
 import {ModePaiementComponent} from './mode-paiement/mode-paiement.component';
+import {ModePaiementAjoutComponent} from './mode-paiement-ajout/mode-paiement-ajout.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule],
     providers: [
