@@ -2,12 +2,12 @@
 /** HEADER **/
 
 #header {
-  height: 164px;
+  height: 100px;
   box-shadow: 0 0 8px 0 grey;
 }
 
 .toolbar-container {
-  height: 164px;
+  height: 100px;
   background-color: #40743C;
 }
 
@@ -42,14 +42,20 @@ ion-icon {
 }
 
 /** BODY **/
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 18px ;
+  color: #40743C;
+  padding: 30px 0 ;
+}
 ion-item{
   padding: 0 50px;
   color: #CCBF7E;
 }
 ion-input{
-  //background-color: white;
   color: #CCBF7E;
-
+  padding: 0 50px;
 }
 ion-label{
   color: #CCBF7E;
@@ -58,11 +64,28 @@ ion-label:active{
   color: #CCBF7E;
 }
 
-hr {
-  height: 2px;
-  color: #CCBF7E;
-  background-color: #CCBF7E;
-  width: 200px;
-  margin: 0 0 0 30px;
-  padding: 0;
+.label--message{
+  margin-left: 50px;
 }
+
+.message{
+  border: solid 1px #CCBF7E;
+  width: 73%;
+  margin-left: 50px;
+  margin-top: 15px;
+  padding:0;
+}
+ion-textarea{
+  height: 130px;
+}
+
+.cta {
+  color: #fff;
+  background-color: #40743C;
+  height: 40px;
+  width: 275px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
