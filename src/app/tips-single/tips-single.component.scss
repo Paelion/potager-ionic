@@ -1,13 +1,13 @@
 /** HEADER **/
 
 #header {
-  height: 164px;
+  height: 100px;
   box-shadow: 0 0 8px 0 grey;
 }
 
 .toolbar-container {
-  height: 164px;
-  background: #40743C;
+  height: 100px;
+  background-color: #40743C;
 }
 
 ion-title {
@@ -20,22 +20,11 @@ ion-title {
 }
 
 ion-icon {
-  color: #ffffff;
   font-size: 30px;
-}
-
-.burger {
-  font-size: 40px;
   position: absolute;
   left: 20px;
   top: 10px;
-}
-
-.loupe {
-  font-size: 25px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  color: #ffffff;
 }
 
 .btn-sousmenu {
@@ -45,50 +34,44 @@ ion-icon {
   width: 50%;
   padding-top: 10px;
   font-size: 22px;
-
-
 }
 
 .btn--wrapper {
   padding-top: 95px;
 }
 
-h3 {
-  text-align: center;
-  color: #40743C;
-}
-
-hr {
-  top: 293px;
-  left: 81px;
-  width: 215px;
-  height: 0px;
-  border: 2px solid #40743C;
-  opacity: 1;
-}
-
 img {
   margin-left: 28px;
+  margin-top: 22px;
 }
 
-.text {
-  display: flex;
-}
-
-h5, p {
-  text-align: justify;
-}
-
-h5 {
-  margin-left: 25px;
+h4 {
+  text-align: center;
+  margin-top: 22px;
   color: #40743C;
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #40743C;
+  opacity: 1;
+  margin-left: 140px;
 }
 
 p {
-
-  text-align: left;
-  font: Light 16px/18px Helvetica Neue;
-  letter-spacing: 0px;
+  margin-top: 22px;
   color: #40743C;
-  margin-left: 115px;
+  margin-left: 22px;
+  margin-right: 22px;
+  text-align: justify;
+}
+
+.fleche {
+  color: #40743C;
+  position: absolute;
+  top: 985px;
+  left: 301px;
+  width: 32px;
+  height: 35px;
 }
