@@ -7,6 +7,7 @@ import {MaterielComponent} from './materiel/materiel.component';
 import {PanierComponent} from './panier/panier.component';
 import {ProduitSingleComponent} from './produit-single/produit-single.component';
 import {TipsMainVerteComponent} from './tips-main-verte/tips-main-verte.component';
+import {GraineSingleComponent} from "./graine-single/graine-single.component";
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'panier', component: PanierComponent},
   {path: 'produitSingle', component: ProduitSingleComponent},
   {path: 'tipsMainVerte', component: TipsMainVerteComponent},
+  {path: 'graineSingle', component: GraineSingleComponent}
 ];
 
 @NgModule({
