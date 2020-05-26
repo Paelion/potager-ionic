@@ -1,0 +1,86 @@
+:root {
+  /** primary **/
+  --ion-color-primary: #40743C;
+}
+
+/** HEADER **/
+
+#header {
+  height: 100px;
+  box-shadow: 0 0 8px 0 grey;
+}
+
+.toolbar-container {
+  height: 100px;
+  background-color: #40743C;
+}
+
+ion-title {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+ion-icon {
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #ffffff;
+}
+
+.btn-sousmenu {
+  color: #40743C;
+  background-color: #ffffff;
+  height: 70px;
+  width: 50%;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.btn--wrapper {
+  padding-top: 95px;
+}
+
+/** BODY **/
+.wrapper {
+  background-color: #CCBF7E;
+  height: 200px;
+}
+
+.bin {
+  margin-left: 300px;
+  padding-top: 15px;
+  color: #40743C;
+  font-size: 25px;
+}
+
+p {
+  color: #40743C;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+img {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  height: 80px;
+  width: auto;
+}
+
+.prix {
+  font-weight: bold;
+}
+
+.top {
+  padding-top: 50px;
+}
+
+
+
+
+
