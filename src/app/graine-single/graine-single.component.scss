@@ -1,3 +1,56 @@
 .img {
+  height: 350px;
   background-color: #CCBF7E;
+  text-align: center;
+}
+
+.fl {
+  position: absolute;
+  top: 17px;
+  left: 11px;
+
+
+  font-size: 30px;
+  color: #40743C;
+}
+
+img{
+  margin-top: 25px;
+}
+
+h4, h5, p {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.cta {
+  color: #fff;
+  background-color: #40743C;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 22px;
+  width: 331px;
+  height: 38px;
+}
+
+.selecteur {
+  display: flex;
+}
+
+.selecteur2 {
+  position: absolute;
+  top: 380px;
+  left: 274px;
+  text-align: center;
+}
+
+hr {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 0px;
+  border: 1px solid #707070;
+  color: #0d0d0d;
+  opacity: 1;
 }
