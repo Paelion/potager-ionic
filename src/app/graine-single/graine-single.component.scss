@@ -1,5 +1,5 @@
 .img {
-  height: 350px;
+  height: 466px;
   background-color: #CCBF7E;
   text-align: center;
 }
@@ -15,12 +15,13 @@
 }
 
 img{
-  margin-top: 25px;
+  margin-top: 100px;
 }
 
 h4, h5, p {
   margin-left: 22px;
   margin-right: 22px;
+  text-align: justify;
 }
 
 .cta {
@@ -38,7 +39,14 @@ h4, h5, p {
 }
 
 .selecteur2 {
+
+  position: absolute;
+  top: 480px;
+  left: 274px;
+  text-align: center;
+
   display: block;
+
 }
 
 ion-item{
