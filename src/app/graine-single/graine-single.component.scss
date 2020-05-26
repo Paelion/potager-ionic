@@ -14,7 +14,7 @@
   color: #40743C;
 }
 
-img{
+img {
   margin-top: 100px;
 }
 
@@ -22,6 +22,9 @@ h4, h5, p {
   margin-left: 22px;
   margin-right: 22px;
   text-align: justify;
+}
+P{
+  margin: 40px 22px 30px 22px;
 }
 
 .cta {
@@ -39,26 +42,45 @@ h4, h5, p {
 }
 
 .selecteur2 {
-
   position: absolute;
-  top: 480px;
-  left: 274px;
+  top: 470px;
+
   text-align: center;
-
   display: block;
-
 }
 
-ion-item{
+hr {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 0;
+  border: 1px solid #40743C;
+  color: #0d0d0d;
+  opacity: 1;
+}
+
+ion-item {
   width: 32%;
-  margin-left: 140px;
+  margin-left: 230px;
   margin-top: 15px;
 }
 
-ion-select{
+ion-icon {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+ion-select {
   position: absolute;
   right: 40px;
 }
-.item-inner{
+
+.selecteur p {
+  padding: 5px 0 0 6px;
+  margin-right: 10px;
+}
+
+.item-inner {
   padding-inline-end: 0;
 }
