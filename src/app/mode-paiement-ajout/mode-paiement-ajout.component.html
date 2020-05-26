@@ -1,0 +1,58 @@
+<ion-toolbar id="header">
+    <div class="toolbar-container">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        <ion-title>AJOUTER UNE CARTE</ion-title>
+    </div>
+</ion-toolbar>
+
+<ion-content>
+    <div class="wrapper">
+        <ion-item class="number">
+            <ion-label position="floating">NUMERO DE CARTE</ion-label>
+            <ion-input [(ngModel)]="test"></ion-input>
+        </ion-item>
+        <br>
+        <ion-label position="floating" class="date">DATE D'EXPIRATION</ion-label>
+        <div class="selecteur--wraper">
+            <ion-item class="select">
+                <ion-select value="1" okText="Choisir" cancelText="Annuler">
+                    <ion-select-option value="1">1</ion-select-option>
+                    <ion-select-option value="2">2</ion-select-option>
+                    <ion-select-option value="3">3</ion-select-option>
+                    <ion-select-option value="4">4</ion-select-option>
+                    <ion-select-option value="5">5</ion-select-option>
+                    <ion-select-option value="6">6</ion-select-option>
+                    <ion-select-option value="7">7</ion-select-option>
+                    <ion-select-option value="8">8</ion-select-option>
+                    <ion-select-option value="9">9</ion-select-option>
+                    <ion-select-option value="10">10</ion-select-option>
+                    <ion-select-option value="11">11</ion-select-option>
+                    <ion-select-option value="12">12</ion-select-option>
+                </ion-select>
+            </ion-item>
+            <ion-item class="select2">
+                <ion-select value="2020" okText="Choisir" cancelText="Annuler">
+                    <ion-select-option value="2020">2020</ion-select-option>
+                    <ion-select-option value="2021">2021</ion-select-option>
+                    <ion-select-option value="2022">2022</ion-select-option>
+                    <ion-select-option value="2023">2023</ion-select-option>
+                    <ion-select-option value="2024">2024</ion-select-option>
+                    <ion-select-option value="2025">2025</ion-select-option>
+                </ion-select>
+            </ion-item>
+        </div>
+        <br>
+        <ion-checkbox></ion-checkbox>
+        <ion-label class="check">Définir comme mode de paiement par défaut</ion-label>
+        <br>
+        <br>
+        <button class="cta">SAUVEGARDER</button>
+        <p class="mode">Nous acceptions</p>
+        <div class="methode">
+            <img src="../../assets/visa.png" alt="" class="visa">
+            <img src="../../assets/master.png" alt="">
+            <img src="../../assets/amex.png" alt="">
+            <img src="../../assets/paypal.png" alt="">
+        </div>
+    </div>
+</ion-content>

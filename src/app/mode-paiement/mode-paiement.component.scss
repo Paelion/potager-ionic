@@ -2,7 +2,6 @@
   /** primary **/
   --ion-color-primary: #40743C;
 }
-
 /** HEADER **/
 
 #header {
@@ -46,41 +45,42 @@ ion-icon {
 }
 
 /** BODY **/
-.wrapper {
+.wrapper{
   background-color: #CCBF7E;
   height: 200px;
 }
-
-.bin {
+.bin{
   margin-left: 300px;
   padding-top: 15px;
   color: #40743C;
   font-size: 25px;
 }
 
-p {
+p{
   color: #40743C;
   font-size: 16px;
-  margin-left: 30px;
+  margin-left: 50px;
+}
+img{
+  margin-left: 50px;
+  margin-top: 35px;
 }
 
-img {
-  position: absolute;
-  right: 20px;
-  top: 100px;
-  height: 80px;
-  width: auto;
+.top{
+  margin-top: 40px;
 }
 
-.prix {
+.cta {
+  color: #fff;
+  background-color: #40743C;
+  height: 40px;
+  width: 275px;
+  font-size: 18px;
   font-weight: bold;
+  margin-left: 50px;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 50px;
 }
-
-.top {
-  padding-top: 50px;
-}
-
-
-
 
 
