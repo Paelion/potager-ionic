@@ -16,6 +16,9 @@ import {MotDePasseOublieComponent} from './mot-de-passe-oublie/mot-de-passe-oubl
 import {InformationsClientComponent} from './informations-client/informations-client.component';
 import {ModePaiementComponent} from './mode-paiement/mode-paiement.component';
 import {ModePaiementAjoutComponent} from './mode-paiement-ajout/mode-paiement-ajout.component';
+import {CommandeEmptyComponent} from './commande-empty/commande-empty.component';
+import {CommandeRecapComponent} from './commande-recap/commande-recap.component';
+import {CommandeDetailComponent} from './commande-detail/commande-detail.component';
 
 
 const routes: Routes = [
@@ -34,7 +37,10 @@ const routes: Routes = [
   {path: 'motDePasseOublie', component: MotDePasseOublieComponent},
   {path: 'informations', component: InformationsClientComponent},
   {path: 'modePaiement', component: ModePaiementComponent},
-  {path: 'modePaiementAjout', component: ModePaiementAjoutComponent}
+  {path: 'modePaiementAjout', component: ModePaiementAjoutComponent},
+  {path: 'commandeEmpty', component: CommandeEmptyComponent},
+  {path: 'commandeRecap', component: CommandeRecapComponent},
+  {path: 'commandeDetail', component: CommandeDetailComponent}
 ];
 
 @NgModule({

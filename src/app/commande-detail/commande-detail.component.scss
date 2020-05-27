@@ -1,0 +1,146 @@
+:root {
+  /** primary **/
+  --ion-color-primary: #40743C;
+}
+
+/** HEADER **/
+
+#header {
+  height: 100px;
+  box-shadow: 0 0 8px 0 grey;
+}
+
+.toolbar-container {
+  height: 100px;
+  background-color: #40743C;
+}
+
+ion-title {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+ion-icon {
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #ffffff;
+}
+
+.btn-sousmenu {
+  color: #40743C;
+  background-color: #ffffff;
+  height: 70px;
+  width: 50%;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.btn--wrapper {
+  padding-top: 95px;
+}
+
+/** BODY **/
+
+h2{
+  display: flex;
+  font-size: 18px ;
+  color: #40743C;
+  margin: 0;
+  padding: 40px 0 5px 30px;
+}
+
+p {
+  color: #40743C;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-bottom: 7px;
+  font-weight: lighter;
+}
+.livraison{
+  color: #CCBF7E;
+  font-weight: bold;
+}
+
+.article{
+  padding-top: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+
+.carotte {
+  height: 80px;
+  width: auto;
+  padding-left: 30px;
+}
+
+.poivron {
+  height: 45px;
+  width: auto;
+  padding-left: 20px;
+}
+
+.graine{
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.graine2{
+  padding-top: 80px;
+}
+
+.graine--wrapper{
+  display: block;
+  position: absolute;
+  right: 25%;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.prix{
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+.prix--wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.prixTotal{
+  margin-left: 0;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+hr {
+  height: 0.5px;
+  color: #40743C;
+  background-color: #40743C;
+  width: 330px;
+  padding: 0;
+}
+
+.commande{
+  padding: 120px 30px 30px 30px;
+}
+
+.total{
+  padding-bottom: 50px;
+}
+
+.prixTotal2{
+  font-weight: bold;
+}

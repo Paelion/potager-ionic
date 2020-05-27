@@ -24,11 +24,14 @@ import {MotDePasseOublieComponent} from './mot-de-passe-oublie/mot-de-passe-oubl
 import {InformationsClientComponent} from './informations-client/informations-client.component';
 import {ModePaiementComponent} from './mode-paiement/mode-paiement.component';
 import {ModePaiementAjoutComponent} from './mode-paiement-ajout/mode-paiement-ajout.component';
+import {CommandeEmptyComponent} from './commande-empty/commande-empty.component';
+import {CommandeRecapComponent} from './commande-recap/commande-recap.component';
+import {CommandeDetailComponent} from './commande-detail/commande-detail.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 
 @NgModule({
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent],
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule],
     providers: [
