@@ -1,11 +1,11 @@
 <ion-toolbar id="header">
     <div class="toolbar-container">
-        <ion-icon name="reorder-three-outline" class="burger"></ion-icon>
+        <ion-icon name="reorder-three-outline" class="burger" (click)="goToMenu()"></ion-icon>
         <ion-icon name="search-outline" class="loupe"></ion-icon>
         <ion-title>SEED</ion-title>
         <div class="btn--wrapper">
-            <button class="btn-sousmenu">Graines</button>
-            <button class="btn-sousmenu">Matériel</button>
+            <button class="btn-sousmenu" (click)="goToGraine()">Graines</button>
+            <button class="btn-sousmenu" (click)="goToMateriel()">Matériel</button>
         </div>
     </div>
 </ion-toolbar>
@@ -27,7 +27,7 @@
         <div class="toProduct--wrapper">
             <h3>UN LÉGUME ÇA NE POUSSE PAS TOUT SEUL.</h3>
             <p>Terreaux, billes d’argiles, arroseurs : nous avons ce qu’il vous faut !</p>
-            <button class="cta">Voir les produits</button>
+            <button class="cta" (click)="goToMateriel()">Voir les produits</button>
         </div>
     </div>
 
@@ -35,7 +35,7 @@
         <h3>LES LÉGUMES
             QUI S’ENTENDENT BIEN.</h3>
         <p>Radis avec kiwi, on oubli.</p>
-        <button class="cta">Ce qu’il faut savoir </button>
+        <button class="cta" (click)="goToTips()">Ce qu’il faut savoir </button>
     </div>
 
     <img src="../../assets/separator.png" class="separator">

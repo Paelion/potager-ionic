@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-graine-single',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GraineSingleComponent implements OnInit {
 
-  constructor() { }
+  goToGraine(){
+    this.router.navigateByUrl('graines');
+  }
+
+  constructor(public router: Router) { }
 
   ngOnInit() {}
 

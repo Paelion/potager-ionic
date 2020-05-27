@@ -1,6 +1,6 @@
 <ion-toolbar id="header">
   <div class="toolbar-container">
-    <ion-icon name="arrow-back-outline"></ion-icon>
+    <ion-icon name="arrow-back-outline" (click)="goToInformations()"></ion-icon>
     <ion-title>MES COMMANDES</ion-title>
   </div>
 </ion-toolbar>
@@ -9,5 +9,5 @@
   <img src="../../assets/onion.svg" alt="">
   <h2>VOUS N’AVEZ ACTUELLEMENT AUCUNE COMMANDE</h2>
   <p>C’est pas comme ça que ça va pousser…</p>
-  <button class="cta">CREER MON COMPTE</button>
+  <button class="cta" (click)="goToGraine()">CREER MON COMPTE</button>
 </ion-content>

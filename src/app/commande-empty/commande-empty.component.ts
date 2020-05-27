@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-commande-empty',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommandeEmptyComponent implements OnInit {
 
-  constructor() { }
+  goToGraine(){
+    this.router.navigateByUrl('graines');
+  }
+
+  goToInformations(){
+    this.router.navigateByUrl('compteInformations');
+  }
+
+  constructor(public router: Router) { }
 
   ngOnInit() {}
 

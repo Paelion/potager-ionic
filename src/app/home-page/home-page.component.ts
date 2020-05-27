@@ -12,6 +12,22 @@ export class HomePageComponent implements OnInit {
     email: string;
     password: string;
 
+    goToMateriel(){
+        this.router.navigateByUrl('materiel');
+    }
+
+    goToGraine(){
+        this.router.navigateByUrl('graines');
+    }
+
+    goToTips(){
+        this.router.navigateByUrl('tipsMainVerte');
+    }
+
+    goToMenu(){
+        this.router.navigateByUrl('menu');
+    }
+
     constructor(public router: Router, public afAuth: AngularFireAuth) {
     }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-mode-paiement-ajout',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModePaiementAjoutComponent implements OnInit {
 
-  constructor() { }
+  goToInformations(){
+    this.router.navigateByUrl('compteInformations');
+  }
+
+
+  constructor(public router: Router) { }
 
   ngOnInit() {}
 

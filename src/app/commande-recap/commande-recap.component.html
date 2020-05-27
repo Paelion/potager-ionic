@@ -1,6 +1,6 @@
 <ion-toolbar id="header">
   <div class="toolbar-container">
-    <ion-icon name="arrow-back-outline"></ion-icon>
+    <ion-icon name="arrow-back-outline" (click)="goToInformations()"></ion-icon>
     <ion-title>MES COMMANDES</ion-title>
   </div>
 </ion-toolbar>
@@ -13,6 +13,6 @@
     <p class="date">Date d’expédition: 14 mai</p>
     <img class="carotte" src="../../assets/carotte.png" alt="">
     <img class="poivron" src="../../assets/poivron.png" alt="">
-    <p class="goTo">VOIR</p>
+    <p class="goTo" (click)="goToCommandeDetail()">VOIR</p>
   </div>
 </ion-content>
