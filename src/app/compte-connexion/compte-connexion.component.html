@@ -9,16 +9,16 @@
   <h2>Se connecter avec une adresse e-mail</h2>
   <ion-item>
     <ion-label position="floating">ADRESSE E-MAIL</ion-label>
-    <ion-input [(ngModel)]="test"></ion-input>
+    <ion-input [(ngModel)]="email"></ion-input>
   </ion-item>
   <br>
   <ion-item>
     <ion-label position="floating">MOT DE PASSE</ion-label>
-    <ion-input [(ngModel)]="test"></ion-input>
+    <ion-input  type="password" [(ngModel)]="password"></ion-input>
   </ion-item>
   <br>
   <br>
-  <button class="cta">CONNEXION</button>
+  <button  (click)="login()" class="cta">CONNEXION</button>
   <p class="mdp" (click)="goToMDP()">Mot de passe oublié ?</p>
   <hr>
   <p class="compte">Pas de compte ?</p>

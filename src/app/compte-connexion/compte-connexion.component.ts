@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
+import {AngularFireAuth} from "@angular/fire/auth";
 
 @Component({
   selector: 'app-compte-connexion',
@@ -7,6 +8,9 @@ import {Router} from '@angular/router';
   styleUrls: ['./compte-connexion.component.scss'],
 })
 export class CompteConnexionComponent implements OnInit {
+
+  email     : string;
+  password  : string;
 
   goToAccueil(){
     this.router.navigateByUrl('');
@@ -20,8 +24,29 @@ export class CompteConnexionComponent implements OnInit {
     this.router.navigateByUrl('motDePasseOublie');
   }
 
-  constructor(public router: Router) { }
+  constructor(public router: Router, public afAuth: AngularFireAuth) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.afAuth.authState.subscribe(user =>
+    {
+      if (user)
+      {
+        localStorage.setItem('user', JSON.stringify(user));
+        this.router.navigateByUrl('');
+      }
+      else
+      {
+        localStorage.setItem('user', null);
+      }
+    });
+  }
+  login()
+  {
+    this.afAuth.signInWithEmailAndPassword(this.email, this.password).then((data) => {
 
+      console.log(`congratulation you're in ! ${data}`);
+    }, (err) => {
+      alert(err);
+    })
+  }
 }

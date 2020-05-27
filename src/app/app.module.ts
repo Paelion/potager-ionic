@@ -31,6 +31,7 @@ import {TipsSingleComponent} from './tips-single/tips-single.component';
 import {MenuComponent} from './menu/menu.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
+import {AngularFirestoreModule} from "@angular/fire/firestore";
 
 
 @NgModule({
@@ -38,7 +39,7 @@ import {AppRoutingModule} from './app-routing.module';
     declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent, MenuComponent],
 
     entryComponents: [],
-    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule],
+    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule, AngularFirestoreModule ],
     providers: [
         StatusBar,
         SplashScreen,
