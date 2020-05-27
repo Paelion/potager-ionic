@@ -11,62 +11,12 @@
 </ion-toolbar>
 
 <ion-content >
+
   <div class="materiel">
-  <div class="materiel2" (click)="goToMaterielSingle()">
-    <img src="../../assets/tuyau.png">
-    <h3>Tuyau</h3>
+    <div *ngFor="let addElem of array; let i = index;" class="objet" (click)="goToMaterielSingle()">
+      <img [src]='addElem.url'/>
+      <p>{{addElem.titre}}</p>
+    </div>
   </div>
-  <div class="materiel2">
-    <img src="../../assets/pistolet.png">
-    <h3>Pistolet</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/tuyau1.png">
-    <h3>Tuyau</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/fourche.png">
-    <h3>Fourche</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/sécateur.png">
-    <h3>Sécateur en Titane</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/sécateur1.png">
-    <h3>Sécateur</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/rateau.png">
-    <h3>Râteau</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/rateau1.png">
-    <h3>Rateau à Feuille</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/tuyau.png">
-    <h3>Tuyau</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/pistolet.png">
-    <h3>Pistolet</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/tuyau1.png">
-    <h3>Tuyau</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/fourche.png">
-    <h3>Fourche</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/sécateur.png">
-    <h3>Sécateur en titane</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/sécateur1.png">
-    <h3>Sécateur</h3>
-  </div>
-  </div>
+
 </ion-content>
