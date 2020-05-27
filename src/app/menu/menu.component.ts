@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
+import {AngularFireAuth} from "@angular/fire/auth";
 
 @Component({
   selector: 'app-menu',
@@ -30,8 +31,14 @@ export class MenuComponent implements OnInit {
     this.router.navigateByUrl('contact');
   }
 
-  constructor(public router: Router) { }
+  constructor(public router: Router,  public afAuth: AngularFireAuth) { }
 
   ngOnInit() {}
-
+  logOut()
+  {
+    this.afAuth.signOut().then((user) => {
+      localStorage.clear();
+      this.router.navigateByUrl('');
+    })
+  }
 }

@@ -43,8 +43,9 @@ export class CompteConnexionComponent implements OnInit {
   login()
   {
     this.afAuth.signInWithEmailAndPassword(this.email, this.password).then((data) => {
+      this.router.navigateByUrl('compteInformations');
 
-      console.log(`congratulation you're in ! ${data}`);
+
     }, (err) => {
       alert(err);
     });

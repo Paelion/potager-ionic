@@ -25,7 +25,7 @@ import {MenuComponent} from './menu/menu.component';
 
 
 const routes: Routes = [
-  {path: '', component: HomePageComponent},
+  {path: 'home', component: HomePageComponent},
   {path: 'graines', component: GrainesComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'materiel', component: MaterielComponent},
