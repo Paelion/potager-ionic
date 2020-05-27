@@ -53,28 +53,31 @@ ion-icon {
   padding-top: 95px;
 }
 
-.materiel {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-
-}
+/** BODY **/
 
 h3 {
   color: #CCBF7E ;
   text-align: center;
 }
 
-img {
-  height: 150px;
+.materiel {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
-.materiel2 {
-  width: 50%;
-  margin-top: 25px;
-}
+
 
 .poivron  {
   width: 150px;
   height: 150px;
+}
+
+.plante{
+  width: 45%;
+  padding-top: 20px;
+}
+img{
+  height: 120px;
+  padding-bottom: 10px;
 }
