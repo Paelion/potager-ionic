@@ -8,6 +8,24 @@ import {Router} from '@angular/router';
 })
 export class TipsMainVerteComponent implements OnInit {
 
+  array: any[] = [
+    {
+      url: '../../assets/lukas-langrock-Dibo4TSF3Jw-unsplash.png',
+      titre: 'Lorem',
+      extrait: 'Lorem ipsum dolor sit amet, consectetur.'
+    },
+    {
+      url: '../../assets/markus-spiske-ZKNsVqbRSPE-unsplash.png',
+      titre: 'Lorem',
+      extrait: 'Lorem ipsum dolor sit amet, consectetur.'
+    },
+    {
+      url: '../../assets/sara-stasi-AbFkrjlsIhM-unsplash.png',
+      titre: 'Lorem',
+      extrait: 'Lorem ipsum dolor sit amet, consectetur.'
+    }
+  ];
+
   goToMateriel(){
     this.router.navigateByUrl('materiel');
   }

@@ -53,25 +53,27 @@ h4 {
 
 h6 {
   font-size: 20px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   color: #40743C;
   opacity: 1;
   margin-left: 140px;
+  padding-bottom: 20px;
 }
 
 p {
   margin-top: 22px;
   color: #40743C;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-left: 28px;
+  margin-right: 28px;
   text-align: justify;
+  padding-bottom: 20px;
 }
 
 .fleche {
   color: #40743C;
   position: absolute;
-  top: 985px;
-  left: 301px;
+  top: 1030px;
+  left: 315px;
   width: 32px;
   height: 35px;
 }
