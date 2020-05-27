@@ -8,6 +8,75 @@ import {Router} from '@angular/router';
 })
 export class GrainesComponent implements OnInit {
 
+  array: any[] = [
+    {
+      url: '../../assets/radis.png',
+      titre: 'Radis'
+    },
+    {
+      url: '../../assets/fenouille.png',
+      titre: 'Fenouil'
+    },
+    {
+      url: '../../assets/courge.png',
+      titre: 'Courge'
+    },
+    {
+      url: '../../assets/carotte.png',
+      titre: 'Carotte'
+    },
+    {
+      url: '../../assets/poivron.png',
+      titre: 'Poivron'
+    },
+    {
+      url: '../../assets/pomme de terre.png',
+      titre: 'Pomme de terre'
+    },
+    {
+      url: '../../assets/salade.png',
+      titre: 'Salade'
+    },
+    {
+      url: '../../assets/tomate.png',
+      titre: 'Tomate'
+    },
+    {
+      url: '../../assets/radis.png',
+      titre: 'Radis'
+    },
+    {
+      url: '../../assets/fenouille.png',
+      titre: 'Fenouil'
+    },
+    {
+      url: '../../assets/courge.png',
+      titre: 'Courge'
+    },
+    {
+      url: '../../assets/carotte.png',
+      titre: 'Carotte'
+    },
+    {
+      url: '../../assets/poivron.png',
+      titre: 'Poivron'
+    },
+    {
+      url: '../../assets/pomme de terre.png',
+      titre: 'Pomme de terre'
+    },
+    {
+      url: '../../assets/salade.png',
+      titre: 'Salade'
+    },
+    {
+      url: '../../assets/tomate.png',
+      titre: 'Tomate'
+    }
+  ];
+
+
+
   goToMenu(){
     this.router.navigateByUrl('menu');
   }
@@ -23,6 +92,8 @@ export class GrainesComponent implements OnInit {
   goToGraineSingle(){
     this.router.navigateByUrl('graineSingle');
   }
+
+
 
   constructor(public router: Router) { }
 

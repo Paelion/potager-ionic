@@ -1,72 +1,22 @@
 <ion-toolbar id="header">
-  <div class="toolbar-container">
-    <ion-icon name="reorder-three-outline" class="burger" (click)="goToMenu()"></ion-icon>
-    <ion-icon name="search-outline" class="loupe"></ion-icon>
-    <ion-title>SEED</ion-title>
-    <div class="btn--wrapper">
-      <button class="btn-sousmenu" (click)="goToGraine()">Graines</button>
-      <button class="btn-sousmenu" (click)="goToMateriel()">Matériel</button>
+    <div class="toolbar-container">
+        <ion-icon name="reorder-three-outline" class="burger" (click)="goToMenu()"></ion-icon>
+        <ion-icon name="search-outline" class="loupe"></ion-icon>
+        <ion-title>SEED</ion-title>
+        <div class="btn--wrapper">
+            <button class="btn-sousmenu" (click)="goToGraine()">Graines</button>
+            <button class="btn-sousmenu" (click)="goToMateriel()">Matériel</button>
+        </div>
     </div>
-  </div>
 </ion-toolbar>
 
 <ion-content>
-  <div class="materiel">
-  <div class="materiel2" (click)="goToGraineSingle()">
-    <img src="../../assets/radis.png">
-    <h3>Radis</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/fenouille.png">
-    <h3>Fenouille</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/courge.png">
-    <h3>Courge</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/carotte.png">
-    <h3>Carotte</h3>
-  </div>
-  <div class="materiel2">
-    <img class="poivron" src="../../assets/poivron.png">
-    <h3>Poivron</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/pomme%20de%20terre.png">
-    <h3> Pomme de Terre</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/salade.png">
-    <h3>Salade</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/tomate.png">
-    <h3>Tomate</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/radis.png">
-    <h3>Radis</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/fenouille.png">
-    <h3>Fenouille</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/courge.png">
-    <h3>Courge</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/carotte.png">
-    <h3>Carotte</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/poivron.png">
-    <h3>Poivron</h3>
-  </div>
-  <div class="materiel2">
-    <img src="../../assets/pomme%20de%20terre.png">
-    <h3> Pomme de Terre</h3>
-  </div>
-  </div>
+
+    <div class="materiel">
+        <div *ngFor="let addElem of array; let i = index;" class="plante" (click)="goToGraineSingle()">
+            <img [src]='addElem.url'/>
+            <p>{{addElem.titre}}</p>
+        </div>
+    </div>
+
 </ion-content>

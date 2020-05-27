@@ -56,19 +56,22 @@ ion-icon {
 h3 {
   text-align: center;
   color: #40743C;
+  padding-top: 30px;
 }
 
 hr {
   top: 293px;
   left: 81px;
   width: 215px;
-  height: 0px;
-  border: 2px solid #40743C;
+  height: 1px;
+  background-color: #40743C;
   opacity: 1;
+  margin-bottom: 30px;
 }
 
 img {
   margin-left: 28px;
+  padding-bottom: 10px;
 }
 
 .text {
@@ -91,4 +94,8 @@ p {
   letter-spacing: 0px;
   color: #40743C;
   margin-left: 115px;
+}
+
+.plante{
+  padding-bottom: 30px;
 }
