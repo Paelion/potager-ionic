@@ -19,7 +19,8 @@ import {ModePaiementAjoutComponent} from './mode-paiement-ajout/mode-paiement-aj
 import {CommandeEmptyComponent} from './commande-empty/commande-empty.component';
 import {CommandeRecapComponent} from './commande-recap/commande-recap.component';
 import {CommandeDetailComponent} from './commande-detail/commande-detail.component';
-import {TipsSingleComponent} from "./tips-single/tips-single.component";
+import {TipsSingleComponent} from './tips-single/tips-single.component';
+import {MenuComponent} from './menu/menu.component';
 
 
 
@@ -42,8 +43,9 @@ const routes: Routes = [
   {path: 'modePaiementAjout', component: ModePaiementAjoutComponent},
   {path: 'commandeEmpty', component: CommandeEmptyComponent},
   {path: 'commandeRecap', component: CommandeRecapComponent},
-  {path: 'commandeDetail', component: CommandeDetailComponent}
-  {path: 'tipsSingle', component: TipsSingleComponent}
+  {path: 'commandeDetail', component: CommandeDetailComponent},
+  {path: 'tipsSingle', component: TipsSingleComponent},
+  {path: 'menu', component: MenuComponent}
 ];
 
 @NgModule({

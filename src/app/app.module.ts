@@ -27,13 +27,15 @@ import {ModePaiementAjoutComponent} from './mode-paiement-ajout/mode-paiement-aj
 import {CommandeEmptyComponent} from './commande-empty/commande-empty.component';
 import {CommandeRecapComponent} from './commande-recap/commande-recap.component';
 import {CommandeDetailComponent} from './commande-detail/commande-detail.component';
+import {TipsSingleComponent} from './tips-single/tips-single.component';
+import {MenuComponent} from './menu/menu.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
-import {TipsSingleComponent} from "./tips-single/tips-single.component";
+
 
 @NgModule({
 
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent, MenuComponent],
 
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule],
