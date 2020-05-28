@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
+declare var indexFunction;
+
 @Component({
   selector: 'app-graines',
   templateUrl: './graines.component.html',
@@ -98,5 +100,10 @@ export class GrainesComponent implements OnInit {
   constructor(public router: Router) { }
 
   ngOnInit() {}
+
+  callIndex(){
+    indexFunction();
+  }
+
 
 }

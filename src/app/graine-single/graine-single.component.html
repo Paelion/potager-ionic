@@ -1,37 +1,58 @@
 <ion-content>
 
+
+
     <div class="img">
         <ion-icon class="fl" name="arrow-back-outline" (click)="goToGraine()"></ion-icon>
+        <div class="iconShopping">
+            <p>0</p>
+            <ion-icon name="cart-outline" class="cartIcon"></ion-icon>
+        </div>
         <img src="../../assets/radis.png">
     </div>
 
-    <div class="selecteur">
-        <div class="selecteur2">
-            <h4>Radis</h4>
-            <h5>2€</h5>
+
+    <div class="item">
+        <div class="itemInfo">
+
+            <h1>Radis</h1>
+            <p class="prix"><span>2</span>€</p>
+            <ion-item class="selecteur">
+                <ion-select value="1" okText="Choisir" cancelText="Annuler" >
+                    <ion-select-option value="1">1</ion-select-option>
+                    <ion-select-option value="2">2</ion-select-option>
+                    <ion-select-option value="3">3</ion-select-option>
+                    <ion-select-option value="4">4</ion-select-option>
+                    <ion-select-option value="5">5</ion-select-option>
+                    <ion-select-option value="6">6</ion-select-option>
+                    <ion-select-option value="7">7</ion-select-option>
+                    <ion-select-option value="8">8</ion-select-option>
+                    <ion-select-option value="9">9</ion-select-option>
+                    <ion-select-option value="10">10</ion-select-option>
+                </ion-select>
+            </ion-item>
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Pellentesque aliquam aliquet
+                odio, sed feugiat turpis ultricies ut. Donec
+                tincidunt vestibulum libero quis suscipit. Nam
+                et mollis nunc, et porttitor neque. Etiam
+                dictum urna arcu, rutrum rutrum tellus.</p>
+            <a title="add to cart" class="attToCart cta">Commander</a>
         </div>
-        <ion-item>
-            <ion-select value="1" okText="Choisir" cancelText="Annuler">
-                <ion-select-option value="1">1</ion-select-option>
-                <ion-select-option value="2">2</ion-select-option>
-                <ion-select-option value="3">3</ion-select-option>
-                <ion-select-option value="4">4</ion-select-option>
-                <ion-select-option value="5">5</ion-select-option>
-                <ion-select-option value="6">6</ion-select-option>
-                <ion-select-option value="7">7</ion-select-option>
-                <ion-select-option value="8">8</ion-select-option>
-                <ion-select-option value="9">9</ion-select-option>
-                <ion-select-option value="10">10</ion-select-option>
-            </ion-select>
-        </ion-item>
     </div>
 
+    <div class="cartBox">
+        <div class="cart">
+            <ion-toolbar id="header">
+                <div class="toolbar-container">
+                    <ion-icon name="close-outline" class="fa fa-close arrow"></ion-icon>
+                    <ion-title>MON PANIER</ion-title>
+                </div>
+            </ion-toolbar>
+            <table></table>
+        </div>
+    </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Pellentesque aliquam aliquet
-        odio, sed feugiat turpis ultricies ut. Donec
-        tincidunt vestibulum libero quis suscipit. Nam
-        et mollis nunc, et porttitor neque. Etiam
-        dictum urna arcu, rutrum rutrum tellus.</p>
-    <button class="cta">Commander</button>
 </ion-content>

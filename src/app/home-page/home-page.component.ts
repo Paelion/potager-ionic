@@ -2,6 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import {AngularFireAuth} from '@angular/fire/auth';
 import {Router} from '@angular/router';
 
+declare var indexFunction;
+
 @Component({
     selector: 'app-home-page',
     templateUrl: './home-page.component.html',
@@ -48,6 +50,10 @@ export class HomePageComponent implements OnInit {
 
     back(){
         this.router.navigateByUrl('login');
+    }
+
+    callIndex(){
+        indexFunction();
     }
 
 }

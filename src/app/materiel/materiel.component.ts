@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 
+declare var indexFunction;
+
 @Component({
   selector: 'app-materiel',
   templateUrl: './materiel.component.html',
@@ -87,5 +89,9 @@ export class MaterielComponent implements OnInit {
   constructor(public router: Router) { }
 
   ngOnInit() {}
+
+  callIndex(){
+    indexFunction();
+  }
 
 }

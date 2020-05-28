@@ -1,7 +1,10 @@
-<ion-toolbar id="header">
+<ion-toolbar id="header2">
     <div class="toolbar-container">
         <ion-icon name="reorder-three-outline" class="burger" (click)="goToMenu()"></ion-icon>
-        <ion-icon name="search-outline" class="loupe"></ion-icon>
+        <div class="iconShopping">
+            <p>0</p>
+            <ion-icon name="cart-outline" class="cartIcon"></ion-icon>
+        </div>
         <ion-title>SEED</ion-title>
         <div class="btn--wrapper">
             <button class="btn-sousmenu" (click)="goToGraine()">Graines</button>
@@ -44,6 +47,18 @@
         <img src="../../assets/truck.png" alt="">
         <p>Délais de livraison :
             3 - 5 jours ouvrés</p>
+    </div>
+
+    <div class="cartBox">
+        <div class="cart">
+            <ion-toolbar id="header">
+                <div class="toolbar-container">
+                    <ion-icon name="close-outline" class="fa fa-close arrow"></ion-icon>
+                    <ion-title>MON PANIER</ion-title>
+                </div>
+            </ion-toolbar>
+            <table></table>
+        </div>
     </div>
 
 </ion-content>

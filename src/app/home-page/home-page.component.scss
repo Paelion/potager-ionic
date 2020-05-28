@@ -4,7 +4,7 @@
 
 /** HEADER **/
 
-#header {
+#header2 {
   height: 164px;
   box-shadow: 0 0 8px 0 grey;
 }
@@ -169,4 +169,78 @@ hr {
   font-weight: lighter;
   width: 150px;
   padding-top: 10px;
+}
+
+
+/*cart box*/
+#header{
+  height: 120px;
+}
+
+.arrow{
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #ffffff;
+}
+.cartBox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  transition: 0.3s linear;
+  transform: scale(0);
+}
+.cartBox.active{
+  transform: scale(1);
+}
+.cartBox .cart{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+th{
+  color: #40743C;
+}
+table{
+  width: 80%;
+  margin-top: 30px;
+}
+
+
+/* ICON */
+
+.iconShopping{
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  right: 40px;
+}
+
+.iconShopping p{
+  position: absolute;
+  top: 12px;
+  right: -15px;
+  padding: 5px 5px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cartIcon{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  font-size: 30px;
 }
