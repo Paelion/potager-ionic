@@ -34,11 +34,10 @@ import {AppRoutingModule} from './app-routing.module';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {FormsModule} from '@angular/forms';
 
-import {TestModalComponent} from './test-modal/test-modal.component';
 
 @NgModule({
 
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent, MenuComponent, TestModalComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent, MenuComponent],
 
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule, AngularFirestoreModule, FormsModule],
