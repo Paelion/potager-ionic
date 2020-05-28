@@ -9,7 +9,7 @@ import {Router} from '@angular/router';
 export class ContactComponent implements OnInit {
 
   goToAccueil(){
-    this.router.navigateByUrl('');
+    this.router.navigateByUrl('home');
   }
 
   constructor(public router: Router) { }

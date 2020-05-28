@@ -13,7 +13,7 @@ export class CompteConnexionComponent implements OnInit {
   password: string;
 
   goToAccueil(){
-    this.router.navigateByUrl('');
+    this.router.navigateByUrl('home');
   }
 
   goToInscription(){
