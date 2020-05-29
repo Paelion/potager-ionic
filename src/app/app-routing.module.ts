@@ -21,6 +21,8 @@ import {CommandeRecapComponent} from './commande-recap/commande-recap.component'
 import {CommandeDetailComponent} from './commande-detail/commande-detail.component';
 import {TipsSingleComponent} from './tips-single/tips-single.component';
 import {MenuComponent} from './menu/menu.component';
+import {MessageEnvoyeComponent} from './message-envoye/message-envoye.component';
+
 
 
 
@@ -45,7 +47,8 @@ const routes: Routes = [
   {path: 'commandeRecap', component: CommandeRecapComponent},
   {path: 'commandeDetail', component: CommandeDetailComponent},
   {path: 'tipsSingle', component: TipsSingleComponent},
-  {path: 'menu', component: MenuComponent}
+  {path: 'menu', component: MenuComponent},
+  {path: 'messageEnvoye', component: MessageEnvoyeComponent}
 ];
 
 @NgModule({

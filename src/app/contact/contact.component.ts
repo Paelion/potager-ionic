@@ -12,6 +12,11 @@ export class ContactComponent implements OnInit {
     this.router.navigateByUrl('home');
   }
 
+  goToEnvoye(){
+    this.router.navigateByUrl('messageEnvoye');
+  }
+
+
   constructor(public router: Router) { }
 
   ngOnInit() {}
