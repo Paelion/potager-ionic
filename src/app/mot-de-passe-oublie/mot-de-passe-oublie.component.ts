@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
+import {AngularFireAuth} from '@angular/fire/auth';
+
 
 
 
@@ -10,12 +12,26 @@ import {Router} from '@angular/router';
 })
 export class MotDePasseOublieComponent implements OnInit {
 
+  email: string;
+
   goToAccueil(){
     this.router.navigateByUrl('home');
   }
 
-  constructor(public router: Router) { }
+  constructor(public router: Router, public afAuth: AngularFireAuth) { }
 
   ngOnInit() {}
+
+  reset()
+  {
+    this.afAuth.sendPasswordResetEmail(this.email).then((data) => {
+      this.router.navigateByUrl('messageEnvoye');
+
+
+    }, (err) => {
+      alert(err);
+    });
+  }
+
 
 }
