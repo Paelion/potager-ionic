@@ -25,7 +25,7 @@ export class MotDePasseOublieComponent implements OnInit {
   reset()
   {
     this.afAuth.sendPasswordResetEmail(this.email).then((data) => {
-      this.router.navigateByUrl('messageEnvoye');
+      this.router.navigateByUrl('mailEnvoye');
 
 
     }, (err) => {

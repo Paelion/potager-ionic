@@ -30,6 +30,7 @@ import {CommandeDetailComponent} from './commande-detail/commande-detail.compone
 import {TipsSingleComponent} from './tips-single/tips-single.component';
 import {MenuComponent} from './menu/menu.component';
 import {MessageEnvoyeComponent} from './message-envoye/message-envoye.component';
+import {MailEnvoyeComponent} from './mail-envoye/mail-envoye.component';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
@@ -38,7 +39,7 @@ import {FormsModule} from '@angular/forms';
 
 @NgModule({
 
-    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent, MenuComponent, MessageEnvoyeComponent],
+    declarations: [AppComponent, HomePageComponent, GrainesComponent, ContactComponent, MaterielComponent, PanierComponent, ProduitSingleComponent, TipsMainVerteComponent, GraineSingleComponent, CompteConnexionComponent, CompteCreationComponent, CompteInformationsComponent, MotDePasseComponent, MotDePasseOublieComponent, InformationsClientComponent, ModePaiementComponent, ModePaiementAjoutComponent, TipsSingleComponent, CommandeEmptyComponent, CommandeRecapComponent, CommandeDetailComponent, MenuComponent, MessageEnvoyeComponent, MailEnvoyeComponent],
 
     entryComponents: [],
     imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, AngularFireModule.initializeApp(config), AngularFireAuthModule, AngularFirestoreModule, FormsModule],

@@ -22,6 +22,7 @@ import {CommandeDetailComponent} from './commande-detail/commande-detail.compone
 import {TipsSingleComponent} from './tips-single/tips-single.component';
 import {MenuComponent} from './menu/menu.component';
 import {MessageEnvoyeComponent} from './message-envoye/message-envoye.component';
+import {MailEnvoyeComponent} from './mail-envoye/mail-envoye.component';
 
 
 
@@ -48,7 +49,8 @@ const routes: Routes = [
   {path: 'commandeDetail', component: CommandeDetailComponent},
   {path: 'tipsSingle', component: TipsSingleComponent},
   {path: 'menu', component: MenuComponent},
-  {path: 'messageEnvoye', component: MessageEnvoyeComponent}
+  {path: 'messageEnvoye', component: MessageEnvoyeComponent},
+  {path: 'mailEnvoye', component: MailEnvoyeComponent}
 ];
 
 @NgModule({
